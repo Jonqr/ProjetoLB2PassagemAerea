@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="Principal" prefHeight="556.0" prefWidth="257.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller.MenuViewController">
+  <children>
+    <Pane blendMode="DARKEN" layoutX="14.0" layoutY="14.0" prefHeight="528.0" prefWidth="233.0">
+      <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="388.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/avião-em-png-queroimagem-ceiça-crispim.png" />
+          </image>
+        </ImageView>
+        <Button fx:id="btMClientes" layoutX="28.0" layoutY="74.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="172.0" text="Clientes" />
+        <Button fx:id="btMAviao" layoutX="28.0" layoutY="126.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="172.0" text="Aviões" />
+        <Button fx:id="btMVoo" layoutX="28.0" layoutY="177.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="172.0" text="Vôos" />
+        <Button fx:id="btMVenda" layoutX="28.0" layoutY="231.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="172.0" text="Venda" />
+        <Button fx:id="btMsair" layoutX="28.0" layoutY="469.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="172.0" text="Sair" />
+        <Text layoutX="25.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Passagem Aerea">
+          <font>
+            <Font name="Engravers MT" size="15.0" />
+          </font>
+        </Text>
+        <Button id="btMVenda" fx:id="btMRelatorio" layoutX="28.0" layoutY="284.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="172.0" text="Relatorio" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
